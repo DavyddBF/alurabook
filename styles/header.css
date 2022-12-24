@@ -1,16 +1,16 @@
-.cabecalho__menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
-.cabecalho {
+.cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
-    background-repeat: no-repeat;
-    background-position: center;
     align-items: center;
     position: relative;
 }
@@ -27,7 +27,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    Top: 100%;
+    top: 100%;
     width: 60vw;
 }
 
@@ -35,7 +35,8 @@
     display: block;
 }
 
-.lista-menu__titulo, .lista-menu__item {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
