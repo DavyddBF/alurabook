@@ -52,11 +52,9 @@
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
     <section class="carrossel">
+        <!--NOVOS LANÇAMENTOS-->
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
-            <!-- Slider main container -->
         <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
 
             <div class="swiper-wrapper">
@@ -69,7 +67,7 @@
                 <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro sobre Tuning AluraBooks"></div>    
             </div>
         
-            <!-- If we need navigation buttons -->
+            <!-- Botões de trocar imagem -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
@@ -82,6 +80,47 @@
                     <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                 </div>
                 <img src="img/Angular.svg" class="descricao__imagem" alt="">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+        <!--MAIS VENDIDOS-->
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre Guia Front-end AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre Liderança AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Livro sobre MetricasAgeis AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre Nodejs AluraBooks"></div>    
+                <div class="swiper-slide"><img src="img/ReactNative.svg" alt="Livro sobre ReactNative AluraBooks"></div>    
+                <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro sobre Tuning AluraBooks"></div>    
+            </div>
+        
+            <!-- Botões de trocar imagem -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="img/Estrelinhas.svg" alt="Estrelas de classificação" class="descricao__estrelas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="img/Perfil-escritora 1.png" class="descricao__imagem" alt="">
             </div>
             <div class="card__botoes">
                 <ul class="botoes">
