@@ -96,21 +96,16 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente {
-        display: none;
-    }
-
-    .cabecalho__menu-hamburguer {
+    .container__imagem-transparente, 
+    .cabecalho__menu-hamburguer, 
+    .container__rotulo,
+    .opcoes__botao {
         display: none;
     }
 
     .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
-    }
-
-    .opcoes__botao {
-        display: none;
     }
 
     .opcoes__botao:checked~.opcoes__rotulo > .opcoes__item {
