@@ -97,8 +97,7 @@
     }
 
     .container__imagem-transparente, 
-    .cabecalho__menu-hamburguer, 
-    .container__rotulo,
+    .cabecalho__menu-hamburguer,
     .opcoes__botao {
         display: none;
     }
