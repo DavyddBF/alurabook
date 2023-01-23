@@ -96,8 +96,8 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente, 
-    .cabecalho__menu-hamburguer,
+    .container__imagem-transparente,
+    .cabeçalho__menu-hamburguer,
     .opcoes__botao {
         display: none;
     }
